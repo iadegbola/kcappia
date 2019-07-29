@@ -5,7 +5,7 @@ The aim of the project is to create an easy to use, social web app for sharing a
 
 Examples — Documentation — Wiki — Migrating — Questions — Forum — Gitter — Slack
 
-Usage
+Usage /n
 Download Xampp
 Move repo to HTDOCS folder
 Run url: http://localhost/kcappia
