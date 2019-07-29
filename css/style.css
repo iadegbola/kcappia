@@ -1,0 +1,251 @@
+* {
+	margin: 0px; 
+	padding: 0px;
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 12px;
+	background-color: #ccFFFF;
+}
+.headerMenu {
+	background-color:#4080ff;
+	height: 98px;
+	border-bottom: 20px;
+	padding-left: auto;
+	padding-right: auto;
+	width: 100%;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: auto;
+	padding-top: 0px; 
+	padding-bottom: 0px;
+	overflow: auto;
+}
+.logo {
+	width: 25px;
+}
+.logo img {
+	width: 19px;
+	height: 30px;
+	padding-top: 5px;
+}
+.logokcappia img {
+	width: 300px;
+	height: 50px;
+	padding-top: 30px;
+	padding-right: auto;
+	padding-left: auto;
+
+	}
+.search_box {
+	position: middle;
+	top: 20px;
+	margin-right: 135px;
+}
+#search input[type="text"]{
+	background: url(../img/search-icon.png);
+outline:none;
+border: 0 none;
+font: bold 12px Arial,Helvetica,Sans-serif;
+width: 350px;
+padding:  9px 135px 6px 35px;
+margin: 0;
+text-shadow: 0 2px  2px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0,0,0, 0.2) inset;
+-moz-box-shadow: 0.1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+-webkit-transition: all 0.7s ease 0s;
+-moz-transition: all 0.7s ease 0s;
+-o-transition: all 0.7s ease 0s;
+transition: all 0.7s ease 0s;
+}
+#search input[type="text"]:focus {
+	background: url(../img/search-icon.png);
+	color: #6a6f75;
+	width: 350px;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1280px) {
+#menu {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 37px;
+	padding-top: 19px;
+	margin-right: 4%;
+
+
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+#menu {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 37px;
+	padding-top: 19px;
+	margin-right: 10%;
+}	
+}
+
+@media screen and (min-width: 1920px) {
+#menu {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 37px;
+	padding-top: 19px;
+	margin-right: 25%;
+}	
+}
+#menu a {
+	color: #006fd4;
+	text-decoration: none;
+	font-size: 18px;
+	background-repeat: no-repeat;
+	padding-top: 29px;
+	padding-bottom: 06px;
+	padding-left: 75px;
+	padding-right: 40px;
+}
+#menu a:hover {
+	border: 1px solid #006fc4;
+}	
+
+h2 {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 18px;
+	padding: 8px;
+	color: #0084c6;
+}
+
+input[type="text"] {
+	background-color: #fffaff;
+	border: 1px solid #e2e2e2;
+	font-size: 15px;
+	padding: 5px;
+	width: 300px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	outline: none;
+}
+input[type="password"] {
+	background-color: #fffaff;
+	border: 1px solid #e2e2e2;
+	font-size: 15px;
+	padding: 5px;
+	width: 300px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	outline: none;
+	}
+input[type="text"]:hover {
+	border: 1px solid #006fc4;
+}
+input[type="password"]:hover {
+	border: 1px solid #006fc4;
+	}
+
+input[type="submit"] {
+	background-color: #006fc4;
+	border: 1px solid #00508d;
+	font-size: 15px;
+	color: #FFFFFF;
+	padding: 5px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	border-radius: 7px;
+}
+.profileLeftSideContent {
+	width: 194;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 0px;
+	height: 200px;
+}
+.postForm {
+	float: right;
+	width: 560px;
+	height: 80px;
+	background-color: #f3f6f9;
+	padding: 5px;
+}
+.homePosts {
+float: right;
+width: 560px;
+height: 414px;
+background-color: #dce5ee;
+padding: 5px;
+}
+.profilePosts hr {
+background-color: #dce5ee;
+height: 1px;
+border: 0px;
+}
+.posted_by {
+font-weight: 800;
+color: #000;
+float: left;
+}
+.posted_by a {
+font-weight: 800;
+color: #000;
+text-decoration: none;
+}
+.posted_by a:hover {
+font-weight: 800;
+color: #000;
+text-decoration: underline;
+}
+#newsphp {
+	font-family: Arial;
+border: 10px;
+background color: #000;
+}
+.footer {
+	background-color: #dce5ee;
+	font-size: 100px;
+	margin-left: 300px;
+	margin-right: 100px;
+
+}
+.submit {
+	background-color: #006fc4;
+	border: 0px;
+	font-size: 0px;
+	color: #FFFFFF;
+	padding: 1px;
+	margin-bottom: 0px;
+	margin-top: 1px;
+	border-radius: 1px;
+	align-content: middle;
+
+}
+.trends {
+	background-color:#4080ff;
+	height: 98px;
+	border-bottom: 20px;
+	padding-left: 20px;
+	padding-right: auto;
+	width: 100%;
+	font-size: 2334px;
+	font-stretch: 2000px;
+	
+}
